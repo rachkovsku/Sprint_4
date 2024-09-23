@@ -10,7 +10,7 @@ public class OrderPageSamokatAboutRent {
 
     private final By whenSamokatToBeDeliverField = By.xpath(".//div[@class='react-datepicker__input-container']/input[@placeholder='* Когда привезти самокат']"); //Поле Когда привезти самокат
 
-    private final By calendar = By.xpath(".//div[@class='react-datepicker__day react-datepicker__day--018 react-datepicker__day--keyboard-selected react-datepicker__day--today']"); //Всплывающий календарь
+    private final By calendar = By.xpath(".//div[@class='react-datepicker__day react-datepicker__day--029 react-datepicker__day--weekend']"); //Всплывающий календарь
 
     private final By rentTimeField = By.xpath(".//div[@class='Dropdown-control']/div[text()='* Срок аренды']"); //Поле Срок аренды
 
